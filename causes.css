@@ -1,0 +1,119 @@
+*{ 
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box; 
+  } 
+    
+  body { 
+    background-color: #e3e3e3; 
+  } 
+  .container { 
+    width: 1000px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 10px; 
+  }
+  nav { 
+    background-color: #089de3; 
+  } 
+    
+  nav > a { 
+    color: #070bfc; 
+    font-size: 30px; 
+    text-decoration: none; 
+    /* top right bottom left*/
+    padding: 10px 10px 10px 30px; 
+    float: left; 
+  } 
+    
+  .navbar > ul { 
+    list-style: none; 
+    float: right; 
+  } 
+    
+  .navbar > ul > li { 
+    display: inline-block; 
+    line-height: 60px; 
+    /*top-bottom right-left*/
+    padding: 0px 20px; 
+  } 
+  .navbar > ul:last-child { 
+    padding-right: 100px; 
+  } 
+    
+  .navbar > ul > li > a { 
+    text-decoration: none; 
+    text-transform: uppercase;
+    font-size: 18px; 
+    color: hsl(56, 97%, 51%); 
+  } 
+    
+  .navbar > ul > li:hover { 
+    opacity: 0.4;
+    transition: 2s ease;
+  } 
+  nav::after { 
+    content: " "; 
+    display: block; 
+    clear: both; 
+    
+  } 
+  .logo{
+    font-family: Rubik Glitch Pop;
+  }
+  .sanieimg{
+    width: 30px;
+    margin: 10px;
+    border-radius: 25%;
+  }
+  .causes{
+    opacity: 0.4;
+    text-decoration: none;
+  } 
+  .causes:hover{
+  opacity: unset;
+  }
+  .first-cause{
+    text-align: center;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .content1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    color: #070bfc;
+    font-size: 10em;
+  }
+  .second-cause{
+    text-align: center;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .content2{
+    text-align: center;
+    color: rgb(72, 31, 255);
+    font-size: 7em;
+    text-transform: uppercase;
+    font-family:Protest Revolution;
+  }
+  .third-cause{
+    text-align: center;
+    margin: 0%;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+  .content3{
+    font-size: 10em;
+    font-style: italic;
+    color: #34fe07;
+    text-transform: uppercase;
+    font-family: Protest Revolution;
+  }
+  .moveable{
+    color: #0728fe;
+    font-family: Barriecito;
+    font-size: 2rem;
+  }
+    

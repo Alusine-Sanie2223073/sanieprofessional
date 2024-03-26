@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" /> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Bebas+Neue&family=Black+Ops+One&family=DM+Serif+Display:ital@0;1&family=Honk&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Rubik+Burned&family=Rubik+Glitch+Pop&display=swap" 
+rel="stylesheet">
+    <title>SANIE TECH COMMUNITY</title> 
+    <link rel="stylesheet" href="style.css" /> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous" /> 
+</head>
+<body>
+    <head> 
+       
+    </head> 
+      
+    <body> 
+        <div class="container"> 
+      
+            <!-------- Creating Navbar --------->
+            <nav> 
+                <a href="#" class="logo">SANIE20</a> 
+                <img class="sanieimg" src="Images/king.jpg" alt="sanieimg">
+                <div class="navbar"> 
+                    <ul> 
+                        <li><a href="index.html" class="home">Home</a></li> 
+                        <li><a href="causes.html">Courses</a></li> 
+                        <li><a href="about.html">About</a></li> 
+                        <li><a href="contact.html">Contact</a></li> 
+                    </ul> 
+                </div> 
+            </nav>
+        <!--------- Creating Banner -------->
+        <div class="main-banner"> 
+            <img src= "Images/sanielogo.png"
+                alt="banner" /> 
+        </div> 
+  
+        <!-------- Courses or services ------->
+        <section class="service"> 
+            <h1>Courses</h1> 
+            <div class="col"> 
+                <i class="fab fa-algolia fa-3x ip"></i> 
+                <h3>Web Designing</h3> 
+                <p> 
+                    If you are looking for a way to  
+                    use your artistic side, web design  
+                    is a great way to do it.In today's  
+                    world, learning how to design  
+                    websites can be an incredibly useful  
+                    skill. 
+                </p> 
+  
+                 
+            </div> 
+  
+            <div class="col"> 
+                <i class="fas fa-code fa-3x ip"></i> 
+                <h3>Web Development</h3> 
+                <p> 
+                    Web development gives you the  
+                    opportunity to express yourself  
+                    creatively on the internet. 
+                    Fortunately, the high demand,  
+                    easy-to-learn, fun-to-experience 
+                    life. 
+                </p> 
+                
+            </div> 
+  
+            <div class="col"> 
+                <i class="fab fa-android fa-3x ip"></i> 
+                <h3>Android</h3> 
+                <p> 
+                    By learning Android Development,  
+                    you give yourself the best possible  
+                    chance to reach any career goals you  
+                    set. Once you get started, within no  
+                    time, you'll land in your dream job. 
+                </p> 
+  
+                
+            </div> 
+        </section> 
+  
+        <section class="about"> 
+            <h1>Why choose us?</h1> 
+            <img
+            onmousemove="image2()" onmouseout="image1()"
+             id="img" src= "Images/team.jpg" alt="about us" /> 
+            <p> 
+                In today’s digital world, when there  
+                are thousands of online platforms  
+                (maybe more than that!) available over  
+                the web, it has becomes quite difficult for  
+                students to opt for a quality, relevant  
+                and reliable platform for themselves. 
+                BOOTCAMP will help you excel in your  
+                choice of domain by giving industry  
+                equivalent experience. 
+            </p> 
+  
+            
+        </section> 
+        <section id="contact"> 
+            <div class="services-info"> 
+                <h1>Get in<span id="blue">Touch</span></h1> 
+                <p> We are Available</p> 
+            </div> 
+  
+            <div class="contact-row"> 
+                <div class="contact-left-col">
+                    <div class="form"> 
+                        <input type="text" id="email" name="" 
+                            placeholder="E-mail"> 
+                        <input type="text"  id="message" name="" 
+                            placeholder="Subject"><br> 
+                        <textarea placeholder="Give your description" rows="10" cols="40" 
+                            placeholder="Message"> 
+                        </textarea> 
+                        <br>  
+                        <button type="button" onclick="validate()"  class="btn"> 
+                            Send 
+                        </button> 
+                    </div> 
+                </div> 
+  
+                <div class="contact-right-col"> 
+                    <h1> 
+                        <i class="fa fa-envelope" 
+                            aria-hidden="true"></i> E-mail 
+                    </h1> 
+                    <p>banguraa660@gmail.com</p><br> 
+                    <h1> 
+                        <i class="fa fa-phone" 
+                            aria-hidden="true"></i> Mobile 
+                    </h1> 
+                    <p> <em> +232 33 41 35 07 / +232 74 52 04 27</em> </p> 
+                    <br> 
+                    <h1> 
+                        <i class="fa fa-location-arrow" 
+                        aria-hidden="true"></i> Address 
+                </h1> 
+                <p> 31 Bolling Street<br> 
+                    Freetown
+                </p> 
+            </div> 
+        </div> 
+    </section> 
+
+    <footer> 
+        <small>Copyright © 2024 || Designed by SANIE
+        </small> 
+    </footer> 
+</div> 
+<script>
+       
+        function validate(){
+            var Username = document.getElementById("email");
+            var password = document.getElementById("message");
+            if(password.value.trim() == "" || Username.value.trim() ==""){
+               alert("You most fill all the blanks ")
+               return false;
+            } else {
+                true;
+            }
+            
+        }
+        
+        function image1(){
+            document.getElementById("img").src="Images/team.jpg";
+        }
+        function image2(){
+            document.getElementById("img").src="Images/big-team.jpg";
+        }
+    
+</script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+/* Write CSS Here */ 
+*{ 
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box; 
+  } 
+    
+  body { 
+    background-color: #e3e3e3; 
+  } 
+  .container { 
+    width: 1000px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 10px; 
+  }
+  .sanieimg{
+    width: 30px;
+    margin: 10px;
+    border-radius: 25%;
+  }
+  .about{
+    opacity: 0.4;
+  } 
+  .about:hover{
+    opacity: unset;
+  }
+    
+  nav { 
+    background-color: #089de3; 
+  } 
+    
+  nav > a { 
+    color: #070bfc; 
+    font-size: 30px; 
+    text-decoration: none; 
+    /* top right bottom left*/
+    padding: 10px 10px 10px 30px; 
+    float: left; 
+  } 
+    
+  .navbar > ul { 
+    list-style: none; 
+    float: right; 
+  } 
+    
+  .navbar > ul > li { 
+    display: inline-block; 
+    line-height: 60px; 
+    /*top-bottom right-left*/
+    padding: 0px 20px; 
+  } 
+    
+  .navbar > ul:last-child { 
+    padding-right: 100px; 
+  } 
+    
+  .navbar > ul > li > a { 
+    text-decoration: none; 
+    text-transform: uppercase;
+    font-size: 18px; 
+    color: #fbf707; 
+  } 
+    
+  .navbar > ul > li:hover { 
+   opacity: 0.4;
+    transition: 0.2s ease;
+  } 
+    
+  nav::after { 
+    content: " "; 
+    display: block; 
+    clear: both; 
+    
+  }
+  .logo{
+    font-family: Rubik Glitch Pop;
+  }
+/* Navbar End */
+  .content{
+    text-align: center;
+    font-size: 2em;
+    font-family:Fugaz One;
+  } 
+  strong{
+    color: #070bfc;
+  }
+  .main-content{
+    font-size: 1.5em;
+    margin: 20px;
+    font-family: Rubik Broken Fax;
+    color: #ff0173;
+  }

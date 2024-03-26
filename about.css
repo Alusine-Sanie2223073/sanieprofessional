@@ -1,0 +1,143 @@
+/* Write CSS Here */ 
+*{ 
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box; 
+  } 
+    
+  body { 
+    background-color: #e3e3e3; 
+  } 
+  .container { 
+    width: 1000px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 10px; 
+  }
+  .sanieimg{
+    width: 30px;
+    margin: 10px;
+    border-radius: 25%;
+  }
+  .about{
+    opacity: 0.4;
+  } 
+  .about:hover{
+    opacity: unset;
+  }
+    
+  nav { 
+    background-color: #089de3; 
+  } 
+    
+  nav > a { 
+    color: #070bfc; 
+    font-size: 30px; 
+    text-decoration: none; 
+    /* top right bottom left*/
+    padding: 10px 10px 10px 30px; 
+    float: left; 
+  } 
+    
+  .navbar > ul { 
+    list-style: none; 
+    float: right; 
+  } 
+    
+  .navbar > ul > li { 
+    display: inline-block; 
+    line-height: 60px; 
+    /*top-bottom right-left*/
+    padding: 0px 20px; 
+  } 
+    
+  .navbar > ul:last-child { 
+    padding-right: 100px; 
+  } 
+    
+  .navbar > ul > li > a { 
+    text-decoration: none; 
+    text-transform: uppercase;
+    font-size: 18px; 
+    color: #fbf707; 
+  } 
+    
+  .navbar > ul > li:hover { 
+   opacity: 0.4;
+    transition: 0.2s ease;
+  } 
+    
+  nav::after { 
+    content: " "; 
+    display: block; 
+    clear: both; 
+    
+  }
+  .logo{
+    font-family: Rubik Glitch Pop;
+  } 
+  .main-content{
+    font-size: 1em;
+    text-align: center;
+    font-family: Abril Fatface;
+  }
+  .head1{
+    color: #07dffc;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin: 20px;
+    font-family: Rubik Glitch Pop;
+  }
+  .strong1{
+    color: rgb(0, 255, 21);
+  }
+  .para1{
+    font-family:Tenor Sans;
+    opacity: 0.5;
+  }
+  .banner{
+    height: 400px;
+  }
+  .banner img{
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+  }
+  .head2{
+    font-family:Rubik Glitch Pop;
+    color: #070bfc;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 10px;
+    text-align: center;
+  }
+  .para2{
+    font-family: Tenor Sans;
+  
+  }
+  .list{
+    color: #070bfc;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  .head3{
+    font-size: 4em;
+    color: rgb(95, 7, 248);
+    text-transform: uppercase;
+    font-family: Rubik Bubbles;
+  }
+  .para3{
+    font-family: Tenor Sans;
+  }
+.head4{
+  font-size: 6em;
+  margin: 10px;
+  color: #07b2fc;
+  font-family: Rubik Broken Fax;
+}
+.para4{
+  font-family:Rubik Bubbles;
+  text-decoration: none;
+  font-size: 2em;
+}
